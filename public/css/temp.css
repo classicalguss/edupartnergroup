@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6f6f6f;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container .navbar {
+    padding: 10px 0;
+}
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-nav .active, .navbar-nav .prompt {
+    background-color: #8EB4E3;
+}
+
+#navbarSupportedContent .navbar-nav .active a.nav-link,
+#navbarSupportedContent .navbar-nav .prompt a.nav-link {
+    color: #fff;
+}
+
+#navbarSupportedContent .navbar-nav a.nav-link {
+    color: #6f6f6f;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Merriweather;
+    padding: 10px 20px;
+}
+
+.dropdown-item {
+    color: #6f6f6f;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Merriweather;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    -webkit-border-radius: 33px;
+}
+
+.shade {
+    background-color: RGBA(12, 11, 11, 0.82);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    min-height: 300px;
+    max-height: 550px;
+}
+
+.banner .container h2 {
+    color: #ffffff;
+    display: block;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-prompt {
+    background-color: #8EB4E3;
+    -webkit-border-radius: 33px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+p.lead {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 0 0 40px;
+    margin: 0;
+    line-height: inherit;
+    color: #ffffff;
+}
+
+p.follow-up {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 0;
+    line-height: inherit;
+    color: #121212;
+}
+
+.home-section {
+    padding: 50px 0;
+}
+
+.school-impact img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 5px;
+}
+
+.school-impact span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.school-impact-row div {
+    padding-bottom: 10px;
+}
+
+.school-impact-row div {
+    display: flex;
+    margin: auto;
+}
+
+.lb {
+    background-color: #f2f3f5;
+}
+
+.wb {
+    background-color: #fff;
+}
+
+.home-section a.prompt {
+    background-color: #8EB4E3;
+    -webkit-border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.home-section .service-item {
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    transition: all 0.7s;
+    box-shadow: 0px 0px 15px #cdcdcd;
+}
+
+.services-section .row div {
+    padding: 15px 10px;
+}
