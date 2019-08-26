@@ -1,3 +1,6 @@
+@php
+    $route = Route::getFacadeRoot()->current()->uri()
+@endphp
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -9,10 +12,7 @@
 </head>
 <body>
 <div class="site-header">
-    {{--<a class="navbar-brand" href="#">--}}
-        {{--<img src="{{ asset('img/edupartner-logo.png') }}">--}}
-    {{--</a>--}}
-    <div class="container">
+    <div>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/edupartner-logo3.png') }}">
@@ -23,11 +23,11 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto navbar-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item @if( $route == "" || $route == "/") active @endif">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                    <li class="nav-item @if( $route == "about") active @endif">
+                        <a class="nav-link" href="/about">About us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="#"><i class="fas fa-user"> </i> Login</a>
                     </li>
                     <li class="nav-item prompt">
-                        <a class="nav-link" href="#"><i class="fas fa-chart-line"> </i> Free Assessment</a>
+                        <a class="nav-link" href="#"><i class="fas fa-chart-line"> </i> Free Self-Assessment</a>
                     </li>
                 </ul>
             </div>
@@ -57,6 +57,40 @@
 </div>
 
 @yield('content')
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="navbar-brand" href="#">
+                    <img src="{{ asset('img/edupartner-logo-white.png') }}">
+                </a>
+                <p class="white">EduPartner is a regional educational management firm specialized in designing new operating models for educational institutes. The purpose of such a customized operating model is to help schools convert strategies to tangible results.
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">School Audit</a></li>
+                    <li><a href="">School Management</a></li>
+                    <li><a href="">Teachers Training</a></li>
+                    <li><a href="">Teachers Recruitment</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"> </i> info@edupartnergroup.com</p>
+                <p><i class="fas fa-phone-square"> </i> +962 797531543</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>Copyright © 2019 Edupartner Group. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 

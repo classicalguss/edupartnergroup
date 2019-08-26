@@ -11,6 +11,19 @@ h3 {
     color: #6f6f6f;
 }
 
+body {
+    padding-top: 80px;
+}
+
+.site-header div > nav {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.70);
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -29,7 +42,7 @@ a:hover {
 }
 
 #navbarSupportedContent .navbar-nav .active a.nav-link,
-#navbarSupportedContent .navbar-nav .prompt a.nav-link {
+#navbarSupportedContent .navbar-nav .prompt a.nav-link, footer a {
     color: #fff;
 }
 
@@ -38,7 +51,19 @@ a:hover {
     font-weight: 700;
     font-size: 17px;
     font-family: Merriweather;
-    padding: 10px 20px;
+    padding: 5px 20px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item.dropdown {
+    margin-right: -3px;
+}
+
+#navbarSupportedContent .navbar-nav a.nav-link {
+    color: #6f6f6f;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Merriweather;
+    padding: 5px 20px;
 }
 
 .dropdown-item {
@@ -163,4 +188,42 @@ p.follow-up {
 
 .services-section .row div {
     padding: 15px 10px;
+}
+
+.services-section p.icon {
+    font-size: 30px;
+    color: #8EB4E3;
+}
+
+.service-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.service-item:hover {
+    background-color: #8EB4E3;
+}
+
+.service-item:hover h4, .service-item:hover p, footer p {
+    color: white;
+}
+
+footer {
+    background-color: #6f6f6f;
+    padding: 40px;
+}
+
+footer .navbar-brand {
+    margin-left: -5px;
+}
+
+footer h3 {
+    color: #8EB4E3;
+}
+
+footer li {
+    color: white;
 }
