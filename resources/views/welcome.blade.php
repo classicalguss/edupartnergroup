@@ -39,7 +39,7 @@
                                 <img style="height: 400px; padding-left: 30px" src="{{ asset('img/managing-schools.jpg')}}" alt="image">
                             </div>
                             <div class="big-tagline col-md-6 col-sm-12">
-                                <h2>Operational School Management</h2>
+                                <h2>School Operating Model</h2>
                                 <p class="lead">We partner with our clients to deliver an ongoing educational management structure or operation of the school to ensure sustainability and demonstrate schools vision and mission.</p>
                                 <a href="#support" class="banner-prompt">Learn More</a>
                             </div>
@@ -102,12 +102,14 @@
                     <div>
                         <img style="max-width: 500px; height: auto; float: right;" src="{{ asset('img/shaking-hands.png') }}">
                         <p class="follow-up">
-                            EduPartner is a regional educational management firm specialized in designing new operating models for educational institutes. The purpose of such a customized operating model is to help schools convert strategies to tangible results.
-
-                            The firm will work closely with its clients to enhance their ability in achieving robust educational results primarily by optimizing their services and aligning their capabilities with their strategies.
+                            We are a diversified group of educators with experience in many international programs including the International Baccalaureate (DP, MYP, PYP), IGCSE, SAT, AP, and other programs.
+                            <br /><br />
+                            Our team members held senior positions in different educational establishments; Examiners and Assistant Examiners, Workshop Leaders, Moderators, subject matter experts, Heads of Departments, Subject Coordinators, PYP Coordinators, MYP Coordinators, DP Coordinators and  Approaches to Learning (ATL) coordinators.
+                            <br /><br>
+                            Also, many members of our team have a solid experience in digital transformation including digital content design and development, instructional design, adaptive learning models, and computer based assessment.
                         </p>
                         <br>
-                        <a href="https://google.com" class="prompt">More about us and our area of expertise</a>
+                        <a href="{{ url('/about') }}" class="prompt">More about us and our area of expertise</a>
                     </div>
                 </div>
 
@@ -177,11 +179,11 @@
                 <div class="row school-impact-row">
                     <div class="col-sm">
                         <img src="{{ asset('img/area-expertise-check.png') }}">
-                        <span>Establishing/ Promoting the international mindset</span>
+                        <span>Ensuring the continuum of educational programs</span>
                     </div>
                     <div class="col-sm">
                         <img src="{{ asset('img/area-expertise-check.png') }}">
-                        <span>Retaining teaching talents</span>
+                        <span>Building a clear matrix of authorities and segregation of duties</span>
                     </div>
                 </div>
                 <div class="row school-impact-row">

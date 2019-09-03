@@ -14,7 +14,7 @@
 <div class="site-header">
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ url("/") }}">
                 <img src="{{ asset('img/edupartner-logo3.png') }}">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <a class="navbar-brand" href="#">
-                    <img src="{{ asset('img/edupartner-logo-white.png') }}">
+                    <img src="{{ asset('img/edupartner-logo3.png') }}">
                 </a>
                 <p class="white">EduPartner is a regional educational management firm specialized in designing new operating models for educational institutes. The purpose of such a customized operating model is to help schools convert strategies to tangible results.
                 </p>
