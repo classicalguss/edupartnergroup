@@ -1,5 +1,5 @@
 @php
-    $route = Route::getFacadeRoot()->current()->uri()
+    $routeName = Route::currentRouteName();
 @endphp
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{@asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{@asset('css/temp.css')}}">
+    {{--<link rel="stylesheet" href="{{@asset('css/temp.css')}}">--}}
     <title>Edupartnergroup</title>
 </head>
 <body>
@@ -23,39 +23,37 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto navbar-right">
-                    <li class="nav-item @if( $route == "" || $route == "/") active @endif">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item @if( $routeName == "home" ) active @endif">
+                        <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item @if( $route == "about") active @endif">
-                        <a class="nav-link" href="/about">About us</a>
+                    <li class="nav-item @if( $routeName == "about") active @endif">
+                        <a class="nav-link" href="/about">ABOUT US</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown @if(in_array($routeName, ['audit', 'school-management', 'teachers-training', 'teachers-recruitment'])) active @endif">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
+                            SERVICES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">School Audit</a>
-                            <a class="dropdown-item" href="#">School Management</a>
-                            <a class="dropdown-item" href="#">Teachers Training</a>
+                            <a class="dropdown-item" href="{{ route('audit') }}">School Audit</a>
+                            <a class="dropdown-item" href="{{ route('school-management') }}">School Management</a>
+                            <a class="dropdown-item" href="{{ route('teachers-training') }}">Teachers Training</a>
                             <a class="dropdown-item" href="#">Teachers Recruitment</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item @if ($routeName == "contact") active @endif">
+                        <a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-user"> </i> Login</a>
+                        <a class="nav-link" href="#"><i class="fas fa-user"> </i> LOGIN</a>
                     </li>
                     <li class="nav-item prompt">
-                        <a class="nav-link" href="#"><i class="fas fa-chart-line"> </i> Free Self-Assessment</a>
+                        <a class="nav-link" href="#"><i class="fas fa-chart-line"> </i> Free Self-Audit</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-
 </div>
-
 @yield('content')
 <footer>
     <div class="container">

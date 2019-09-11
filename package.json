@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.10.2",
+        "intl-tel-input": "^16.0.3",
         "tether": "^1.4.7"
     }
 }

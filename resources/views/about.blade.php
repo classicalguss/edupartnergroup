@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="lb">
+    <div class="wb">
         <div class="container">
             <div class="home-section">
-                <h3 class="">About us</h3>
+                <h3 class="text-center">About us</h3>
                 <div class="row">
                     <div>
                         <p class="follow-up">
@@ -16,10 +16,10 @@
             </div>
         </div>
     </div>
-    <div class="wb">
+    <div class="lb">
         <div class="container">
             <div class="home-section">
-                <h3 class="text-center">Our area of expertise</h3>
+                <h3 class="">Our area of expertise</h3>
                 <p class="follow-up">Our areas of expertise cover the following educational domains in many Educational programs including IB, GCSE, SAT, and local systems in the Arab World:</p>
                 <ul>
                     <li><span>Curriculum Development (Taught, written, and assessed curriculum) including identifying Learning standards, Scope and sequencing, content provision.</span></li>
@@ -31,7 +31,12 @@
                     <li><span>Schools Administration and Operations</span></li>
                     <li><span>Schools reviews and inspections</span></li>
                 </ul>
+                <div class="text-center">
+                    <br>
+                    <a class="prompt" href="{{ url('/about') }}" class="prompt">Contact us for any inquiries</a>
+                </div>
             </div>
+
         </div>
     </div>
 @endsection

@@ -16,3 +16,6 @@ mix.autoload({
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
+
+mix.sass('node_modules/intl-tel-input/src/css/intlTelInput.scss','public/css');
+mix.js('node_modules/intl-tel-input/src/js/intlTelInput.js', 'public/js');

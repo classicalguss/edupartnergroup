@@ -145,6 +145,16 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'phonenumber' => 'Phone number',
+        'email' => 'Email',
+        'firstname' => 'First name',
+        'lastname' => 'Last name',
+        'schoolname' => 'School name',
+        'schooladdress' => 'School address',
+        'numofstudents' => 'Number of students',
+        'schoolsector' => 'School sector',
+        'servicetype' => 'Service type'
+    ],
 
 ];
