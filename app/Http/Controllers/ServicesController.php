@@ -17,4 +17,8 @@ class ServicesController extends Controller
     public function teachersTraining() {
         return view('services.teacherstraining');
     }
+
+    public function teachersRecruitment() {
+        return view('services.teachersrecruitment');
+    }
 }

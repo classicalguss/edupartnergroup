@@ -37,7 +37,7 @@
                             <a class="dropdown-item" href="{{ route('audit') }}">School Audit</a>
                             <a class="dropdown-item" href="{{ route('school-management') }}">School Management</a>
                             <a class="dropdown-item" href="{{ route('teachers-training') }}">Teachers Training</a>
-                            <a class="dropdown-item" href="#">Teachers Recruitment</a>
+                            <a class="dropdown-item" href="{{ route('teachers-recruitment') }}">Teachers Recruitment</a>
                         </div>
                     </li>
                     <li class="nav-item @if ($routeName == "contact") active @endif">
@@ -45,9 +45,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-user"> </i> LOGIN</a>
-                    </li>
-                    <li class="nav-item prompt">
-                        <a class="nav-link" href="#"><i class="fas fa-chart-line"> </i> Free Self-Audit</a>
                     </li>
                 </ul>
             </div>

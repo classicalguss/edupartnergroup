@@ -3,14 +3,16 @@
     <div class="wb">
         <div class="container">
             <div class="home-section">
-                <h3 class="text-center">School Management</h3>
+                <h3 class="text-center">Teachers Training</h3>
                 <div class="row">
                     <div class="col-md-9">
                         <p class="follow-up">
                             As one of the leading Education Management firms in the region, EduPartner Group through its
                             strategic partnership with the leading educational establishments worldwide include
-                            <a href="https://www.cambridgeed.com/">Cambridge Educational services</a>; a well-established world leader in academic services,
-                            publishing, and assessments, <a href="https://www.cityandguilds.com">City & Guilds</a> of UK; another world leader in academic
+                            <a href="https://www.cambridgeed.com/">Cambridge Educational services</a>; a
+                            well-established world leader in academic services,
+                            publishing, and assessments, <a href="https://www.cityandguilds.com">City & Guilds</a> of
+                            UK; another world leader in academic
                             certification and accreditation, aims to play an effective role in improving the overall
                             performance of educational establishments locally and regionally.
                             <br> This is principally done
@@ -19,8 +21,10 @@
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <a href="https://www.cambridgeed.com/"><img style="width: 70%" src="{{asset('img/cambridge.png')}}"></a>
-                        <a href="https://www.cityandguilds.com"><img style="width: 100%; margin-left:-40px" src="{{asset('img/city-and-guilds.png')}}"></a>
+                        <a href="https://www.cambridgeed.com/"><img style="width: 70%"
+                                                                    src="{{asset('img/cambridge.png')}}"></a>
+                        <a href="https://www.cityandguilds.com"><img style="width: 100%; margin-left:-40px"
+                                                                     src="{{asset('img/city-and-guilds.png')}}"></a>
                     </div>
                 </div>
             </div>
@@ -64,7 +68,7 @@
                 </div>
                 <div class="text-center">
                     <br>
-                    <a class="prompt" href="{{ url('/about') }}" class="prompt">Contact us for teachers training</a>
+                    <a class="prompt" href="{{ url('/contact?teachers-training') }}" class="prompt">Contact us for teachers training</a>
                 </div>
             </div>
         </div>

@@ -10795,10 +10795,10 @@ p.lead {
   color: #ffffff;
 }
 
-p.follow-up {
+p.follow-up,
+ul.follow-up li {
   font-size: 20px;
   font-weight: 300;
-  padding: 10px;
   margin: 0;
   line-height: inherit;
   color: #121212;

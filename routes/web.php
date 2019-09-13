@@ -24,9 +24,10 @@ Route::get('/about', function() {
 Route::get('services/audit', 'ServicesController@audit')->name('audit');
 Route::get('services/schools-management', 'ServicesController@schoolManagement')->name('school-management');
 Route::get('services/teachers-training', 'ServicesController@teachersTraining')->name('teachers-training');
-Route::get('services/teachers-recruiting', 'ServicesController@audit')->name('teachers-recruiting');
+Route::get('services/teachers-recrtuiment', 'ServicesController@teachersRecruitment')->name('teachers-recruitment');
 
 Route::get('contact', 'ContactController@create')->name('contact');
+Route::get('success', 'ContactController@success')->name('success');
 Route::post('contact', 'ContactController@store')->name('contact.store');
 
 

@@ -85,8 +85,8 @@
                             <tfoot>
                                 <tr>
                                     <td class="hide"></td>
-                                    <td><a href="{{ url('contact') }}">CONTACT</a></td>
-                                    <td><a href="{{ url('contact') }}">CONTACT</a></td>
+                                    <td><a href="{{ url('/contact?service=free-audit') }}">CONTACT</a></td>
+                                    <td><a href="{{ url('/contact?service=educational-consultants-audit') }}">CONTACT</a></td>
                                 </tr>
                             </tfoot>
                         </table>

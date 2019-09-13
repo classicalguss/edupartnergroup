@@ -186,7 +186,7 @@
                 <br>
                 <h3>Feel free to ask us about any service</h3>
                 <br>
-                <a href="https://google.com" class="prompt">Contact us</a>
+                <a href="{{ route('contact') }}" class="prompt">Contact us</a>
             </div>
         </div>
     </div>

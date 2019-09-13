@@ -20,10 +20,11 @@ class CreateContactsTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('school_name');
-            $table->string('school address');
+            $table->string('school_address');
             $table->integer('number_of_students_option');
             $table->integer('school_sector_option');
             $table->integer('service_type_option');
+            $table->text('optional_message')->nullable();
             $table->timestamps();
         });
     }

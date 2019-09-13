@@ -34,7 +34,7 @@
                 </div>
                 <div class="text-center">
                     <br>
-                    <a class="prompt" href="{{ url('/about') }}" class="prompt">Contact us for school management</a>
+                    <a class="prompt" href="{{ url('/contact?service=school-management') }}" class="prompt">Contact us for school management</a>
                 </div>
             </div>
         </div>
