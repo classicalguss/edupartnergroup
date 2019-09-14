@@ -2,7 +2,6 @@
 # {{ $contact->school_name }} has sent their contact details
 
 A contact was requested. Here are the details for it:
-
 @component('mail::table')
     | Property      | Value         |
     | :------------- | :-------------|

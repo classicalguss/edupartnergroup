@@ -73,6 +73,10 @@ p {
     text-align: left;
 }
 
+td.logo_wrap p {
+    text-align: center;
+}
+
 p.sub {
     font-size: 12px;
 }
