@@ -18,9 +18,9 @@ A contact was requested. Here are the details for it:
 @component('mail::promotion')
     {{ $contact->optional_message }}
 @endcomponent
-@component('mail::button', ['url' => url('/admin')])
-    Go to admin interface
-@endcomponent
+{{--@component('mail::button', ['url' => url('/admin')])--}}
+    {{--Go to admin interface--}}
+{{--@endcomponent--}}
 Thanks,<br>
 {{ config('app.name') }}
 @endcomponent
