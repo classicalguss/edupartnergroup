@@ -21,9 +21,9 @@ class CreateContactsTable extends Migration
             $table->string('last_name');
             $table->string('school_name');
             $table->string('school_address');
-            $table->integer('number_of_students_option');
-            $table->integer('school_sector_option');
-            $table->integer('service_type_option');
+            $table->integer('number_of_students_option_id');
+            $table->integer('school_sector_option_id');
+            $table->integer('service_option_id');
             $table->text('optional_message')->nullable();
             $table->timestamps();
         });

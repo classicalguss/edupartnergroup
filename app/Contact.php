@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $school_address
  * @property int $number_of_students_option
  * @property int $school_sector_option
- * @property int $service_type_option
+ * @property int $service_option
  * @property string $optional_message
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -46,8 +46,23 @@ class Contact extends Model
         'last_name',
         'school_name',
         'school_address',
-        'number_of_students_option',
-        'school_sector_option',
-        'service_type_option',
+        'number_of_students_option_id',
+        'school_sector_option_id',
+        'service_option_id',
         'optional_message'];
+
+    public function number_of_students_option()
+    {
+        return $this->belongsTo('App\NumberOfStudentsOption');
+    }
+
+    public function school_sector_option()
+    {
+        return $this->belongsTo('App\SchoolSectorOption');
+    }
+
+    public function service_option()
+    {
+        return $this->belongsTo('App\ServiceOption');
+    }
 }

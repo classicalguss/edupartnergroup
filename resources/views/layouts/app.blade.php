@@ -29,23 +29,25 @@
                     <li class="nav-item @if( $routeName == "about") active @endif">
                         <a class="nav-link" href="/about">ABOUT US</a>
                     </li>
-                    <li class="nav-item dropdown @if(in_array($routeName, ['audit', 'school-management', 'teachers-training', 'teachers-recruitment'])) active @endif">
+                    <li class="nav-item @if( $routeName == "audit") active @endif">
+                        <a class="nav-link" href="{{ route('audit') }}">SCHOOL AUDIT</a>
+                    </li>
+                    <li class="nav-item dropdown @if(in_array($routeName, ['school-management', 'teachers-training', 'teachers-recruitment'])) active @endif">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SERVICES
+                            OTHER SERVICES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('audit') }}">School Audit</a>
                             <a class="dropdown-item" href="{{ route('school-management') }}">School Management</a>
                             <a class="dropdown-item" href="{{ route('teachers-training') }}">Teachers Training</a>
                             <a class="dropdown-item" href="{{ route('teachers-recruitment') }}">Teachers Recruitment</a>
                         </div>
                     </li>
-                    <li class="nav-item @if ($routeName == "contact") active @endif">
-                        <a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
+                    <li class="nav-item @if (in_array($routeName, ['success', 'contact'])) active @endif">
+                        <a class="nav-link " href="{{ route('contact') }}"><i class="fas fa-envelope"> </i> CONTACT</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-user"> </i> LOGIN</a>
-                    </li>
+                    {{--<li class="nav-item">--}}
+                        {{--<a class="nav-link" href="#"><i class="fas fa-user"> </i> LOGIN</a>--}}
+                    {{--</li>--}}
                 </ul>
             </div>
         </nav>
@@ -65,12 +67,12 @@
             <div class="col-sm-3">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">School Audit</a></li>
-                    <li><a href="">School Management</a></li>
-                    <li><a href="">Teachers Training</a></li>
-                    <li><a href="">Teachers Recruitment</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('about') }}">About us</a></li>
+                    <li><a href="{{ route('audit') }}">School Audit</a></li>
+                    <li><a href="{{ route('school-management') }}">School Management</a></li>
+                    <li><a href="{{ route('teachers-training') }}">Teachers Training</a></li>
+                    <li><a href="{{ route('teachers-recruitment') }}">Teachers Recruitment</a></li>
                 </ul>
             </div>
             <div class="col-sm-3">

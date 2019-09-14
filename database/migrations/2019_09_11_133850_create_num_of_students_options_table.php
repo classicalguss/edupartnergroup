@@ -13,7 +13,7 @@ class CreateNumOfStudentsOptionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('num_of_students_options', function (Blueprint $table) {
+        Schema::create('number_of_students_options', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('value');
         });
@@ -26,6 +26,6 @@ class CreateNumOfStudentsOptionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('num_of_students_options');
+        Schema::dropIfExists('number_of_students_options');
     }
 }

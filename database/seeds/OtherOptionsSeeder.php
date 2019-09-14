@@ -11,29 +11,36 @@ class OtherOptionsSeeder extends Seeder
      */
     public function run()
     {
-
+        DB::table('school_sector_options')->truncate();
         DB::table('school_sector_options')->insert([
-            'value'=> 'Private'
+            'value'=> 'Private School'
         ]);
         DB::table('school_sector_options')->insert([
-            'value'=> 'Public'
+            'value'=> 'Public School'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->truncate();
+        DB::table('service_options')->insert([
+            'key' => 'free-audit',
             'value'=> 'Free Self-Audit'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->insert([
+            'key' => 'educational-consultants-audit',
             'value'=> 'Educational Consultants Audit'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->insert([
+            'key' => 'school-management',
             'value'=> 'School Management & Operating model development'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->insert([
+            'key' => 'teachers-training',
             'value'=> 'Teachers training'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->insert([
+            'key' => 'teachers-recruitment',
             'value'=> 'Teachers recruitment'
         ]);
-        DB::table('services_options')->insert([
+        DB::table('service_options')->insert([
+            'key' => 'other-inquiries',
             'value'=> 'Other inquiries'
         ]);
     }

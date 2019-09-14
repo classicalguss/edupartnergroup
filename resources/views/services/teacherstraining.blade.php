@@ -68,7 +68,7 @@
                 </div>
                 <div class="text-center">
                     <br>
-                    <a class="prompt" href="{{ url('/contact?teachers-training') }}" class="prompt">Contact us for teachers training</a>
+                    <a class="prompt" href="{{ url('/contact?service=teachers-training') }}" class="prompt">Contact us for teachers training</a>
                 </div>
             </div>
         </div>

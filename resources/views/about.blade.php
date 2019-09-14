@@ -33,7 +33,7 @@
                 </ul>
                 <div class="text-center">
                     <br>
-                    <a class="prompt" href="{{ url('/about') }}" class="prompt">Contact us for any inquiries</a>
+                    <a class="prompt" href="{{ route('contact') }}" class="prompt">Contact us for any inquiries</a>
                 </div>
             </div>
 

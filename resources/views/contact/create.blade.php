@@ -4,17 +4,12 @@
     use App\Contact;
     $contact = new Contact();
     if ($errors->count() > 0) {
-        echo ("Yes there ");
         foreach ($contact->getFillable() as $attribute) {
             $contact->setAttribute($attribute, old($attribute));
         }
-        $errorsMan = 'Yes errors';
     } else {
-    echo ('no err');
         $contact = $prev_contact;
-        $errorsMan = 'no errors';
     }
-
 @endphp
 @section('content')
     <div class="wb">
@@ -86,7 +81,8 @@
                              class="form-group">
                             <input type="text" name="school_address"
                                    class="form-control @if ($errors->has('school_address')) is-invalid @elseif ($errors->count() > 0) is-valid @endif"
-                                   id="inputAddress" placeholder="School Address" value="{{ $contact->school_address }}">
+                                   id="inputAddress" placeholder="School Address"
+                                   value="{{ $contact->school_address }}">
                             @if ($errors->has('school_address'))
                                 <div class="invalid-feedback">{{ $errors->first('school_address') }}</div>
                             @else
@@ -95,37 +91,38 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <select name="number_of_students_option"
-                                        class="form-control @if ($errors->has('number_of_students_option')) is-invalid @elseif ($errors->count() > 0) is-valid @endif">
+                                <select name="number_of_students_option_id"
+                                        class="form-control @if ($errors->has('number_of_students_option_id')) is-invalid @elseif ($errors->count() > 0) is-valid @endif">
                                     <option value="">-- Number of Students --</option>
                                     @foreach ($number_of_students_options as $option)
-                                        @if ( $contact->number_of_students_option == $option->id)
+                                        @if ( $contact->number_of_students_option_id == $option->id)
                                             <option value="{{ $option->id }}" selected>{{ $option->value }}</option>
                                         @else
                                             <option value="{{ $option->id }}">{{ $option->value }}</option>
                                         @endif
                                     @endforeach
                                 </select>
-                                @if ($errors->has('number_of_students_option'))
-                                    <div class="invalid-feedback">{{ $errors->first('number_of_students_option') }}</div>
+                                @if ($errors->has('number_of_students_option_id'))
+                                    <div
+                                        class="invalid-feedback">{{ $errors->first('number_of_students_option_id') }}</div>
                                 @else
                                     <div class="valid-feedback">Looks good!</div>
                                 @endif
                             </div>
                             <div class="form-group col-md-6">
-                                <select name="school_sector_option"
-                                        class="form-control @if ($errors->has('school_sector_option')) is-invalid @elseif ($errors->count() > 0) is-valid @endif">
+                                <select name="school_sector_option_id"
+                                        class="form-control @if ($errors->has('school_sector_option_id')) is-invalid @elseif ($errors->count() > 0) is-valid @endif">
                                     <option value="" selected>-- School Sector --</option>
                                     @foreach ($school_sector_options as $option)
-                                        @if ($contact->school_sector_option == $option->id)
+                                        @if ($contact->school_sector_option_id == $option->id)
                                             <option value="{{ $option->id }}" selected>{{ $option->value }}</option>
                                         @else
                                             <option value="{{ $option->id }}">{{ $option->value }}</option>
                                         @endif
                                     @endforeach
                                 </select>
-                                @if ($errors->has('school_sector_option'))
-                                    <div class="invalid-feedback">{{ $errors->first('school_sector_option') }}</div>
+                                @if ($errors->has('school_sector_option_id'))
+                                    <div class="invalid-feedback">{{ $errors->first('school_sector_option_id') }}</div>
                                 @else
                                     <div class="valid-feedback">Looks good!</div>
                                 @endif
@@ -133,25 +130,27 @@
                         </div>
                         <legend>Service</legend>
                         <div class="form-group">
-                            <select name="service_type_option" class="form-control @if ($errors->has('service_type_option')) is-invalid
+                            <select name="service_option_id"
+                                    class="form-control @if ($errors->has('service_option_id')) is-invalid
                                     @elseif ($errors->count() > 0) is-valid @endif">
                                 <option value="" selected>-- Service Type --</option>
                                 @foreach ($service_type_options as $option)
-                                    @if (old('service_type_option') == $option->id)
+                                    @if (old('service_option_id') == $option->id || $service == $option->key)
                                         <option value="{{ $option->id }}" selected>{{ $option->value }}</option>
                                     @else
                                         <option value="{{ $option->id }}">{{ $option->value }}</option>
                                     @endif
                                 @endforeach
                             </select>
-                            @if ($errors->has('service_type_option'))
-                                <div class="invalid-feedback">{{ $errors->first('service_type_option') }}</div>
+                            @if ($errors->has('service_option_id'))
+                                <div class="invalid-feedback">{{ $errors->first('service_option_id') }}</div>
                             @else
                                 <div class="valid-feedback">Looks good!</div>
                             @endif
                         </div>
                         <div class="form-group">    
-                            <textarea name="optional_message" class="form-control" id="customMessageContactForm" rows="5"
+                            <textarea name="optional_message" class="form-control" id="customMessageContactForm"
+                                      rows="5"
                                       placeholder="Optional Message">{{ old('optional_message') }}</textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>

@@ -11,20 +11,21 @@ class AddNumOfStudentsOptions extends Seeder
      */
     public function run()
     {
-        DB::table('num_of_students_options')->insert([
-            'value'=> 'Less than 100'
+        DB::table('number_of_students_options')->truncate();
+        DB::table('number_of_students_options')->insert([
+            'value'=> 'Less than 100 Students'
         ]);
-        DB::table('num_of_students_options')->insert([
-            'value'=> '100 - 500'
+        DB::table('number_of_students_options')->insert([
+            'value'=> '100 - 500 Students'
         ]);
-        DB::table('num_of_students_options')->insert([
-            'value'=> '500 - 1000'
+        DB::table('number_of_students_options')->insert([
+            'value'=> '500 - 1000 Students'
         ]);
-        DB::table('num_of_students_options')->insert([
-            'value'=> '1000 - 2000'
+        DB::table('number_of_students_options')->insert([
+            'value'=> '1000 - 2000 Students'
         ]);
-        DB::table('num_of_students_options')->insert([
-            'value'=> 'More than 2000'
+        DB::table('number_of_students_options')->insert([
+            'value'=> 'More than 2000 Students'
         ]);
     }
 }
