@@ -32,7 +32,7 @@ class ContactRequested extends Mailable
     public function build()
     {
         return $this->markdown('emails.contact.requested')
-                    ->from(['address'=>'noreply@edupartnergroup.com','name' => 'Edupartner Group'])
+                    ->from(['address'=>'noreply@mg.edupartnergroup.com','name' => 'Edupartner Group'])
                     ->subject($this->contact->school_name.' is requesting to contact Edupartner')
                     ->with([
                         'contact' => $this->contact
