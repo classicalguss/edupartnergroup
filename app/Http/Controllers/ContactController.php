@@ -52,7 +52,7 @@ class ContactController extends Controller
         setcookie('last_contact', json_encode($contact, true), time() + (3600 * 24 * 60));
         $contact = Contact::create($contact);
 
-        Mail::to(["barghouti_since88@hotmail.com", "g.barghouti@edupartnergroup.com"])->send(new ContactRequested($contact));
+        Mail::to(["m.rahman@edupartnergroup.com", "g.barghouti@edupartnergroup.com"])->send(new ContactRequested($contact));
         return redirect()->route("success");
     }
 
