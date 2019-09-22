@@ -1,109 +1,112 @@
 @extends('layouts.app')
 @section('content')
-    <div id="carouselExampleIndicators" class="carousel slide"  data-interval="false">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
 
-            <div class="banner carousel-item active">
-                <img class="d-block w-100" src="{{ asset('img/slide_02.jpg') }}" alt="School Audit">
-                <div class="shade"></div>
-                <div class="banner-content row align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="big-tagline col-md-6 col-sm">
-                                <h2>Audit Schools Thoroughly</h2>
-                                <p class="lead">We at "EduPartner group" have devised a special model to audit schools
-                                    and determine their strengths and weaknesses.
-                                    Our audit model consists of 8 different capabilities.</p>
-                                <a href="{{ route('audit') }}" class="banner-prompt">Learn More</a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <div class="banner carousel-item active">
+                        <img class="d-block background-img" src="{{ asset('img/slide_02.jpg') }}" alt="School Audit">
+                        <div class="shade"></div>
+                        <div class="banner-content align-items-center d-flex">
+                            <div class="carousel-container">
+                                <div class="row">
+                                    <div class="big-tagline col-sm">
+                                        <h2>Audit Schools Thoroughly</h2>
+                                        <p class="lead">We at "EduPartner group" have devised a special model to audit schools
+                                            and determine their strengths and weaknesses.
+                                            Our audit model consists of 8 different capabilities.</p>
+                                        <a href="{{ route('audit') }}" class="banner-prompt">Learn More</a>
+                                    </div>
+                                    <div class="col-sm img-part">
+                                        <img class="content-img" style=""
+                                             src="{{ asset('img/new/Audit.jpg')}}" alt="image">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm">
-                                <img style=""
-                                     src="{{ asset('img/new/Audit.jpg')}}" alt="image">
+
+                        </div>
+                    </div>
+                    <div class="banner carousel-item">
+                        <img class="d-block background-img" src="{{ asset('img/slide_01.jpg') }}" alt="School Management">
+                        <div class="shade"></div>
+                        <div class="banner-content align-items-center d-flex">
+                            <div class="carousel-container">
+                                <div class="row">
+                                    <div class="col-sm img-part">
+                                        <img class="content-img" style="width: 80%"
+                                             src="{{ asset('img/new/Operating Model.jpg')}}" alt="image">
+                                    </div>
+                                    <div class="big-tagline col-sm">
+                                        <h2>School Operating Model</h2>
+                                        <p class="lead">We partner with our clients to deliver an ongoing educational management
+                                            structure or operation of the school to ensure sustainability and demonstrate
+                                            schools vision and mission.</p>
+                                        <a href="{{ route("school-management") }}" class="banner-prompt">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner carousel-item">
+                        <img class="d-block background-img" src="{{ asset('img/slide_04.jpg') }}" alt="School Audit">
+                        <div class="shade"></div>
+                        <div class="banner-content align-items-center d-flex">
+                            <div class="carousel-container">
+                                <div class="row">
+                                    <div class="big-tagline col-sm">
+                                        <h2>Comprehensive Teachers Training</h2>
+                                        <p class="lead">Partnering with a leading establishment in Cambridge Educational
+                                            Services, we aim to play an effective role in improving the overall performance of
+                                            educational establishments locally and regionally.</p>
+                                        <a href="{{ route("teachers-training") }}" class="banner-prompt">Learn More</a>
+                                    </div>
+                                    <div class="col-sm img-part">
+                                        <img class="content-img" style=""
+                                             src="{{ asset('img/new/training.jpg')}}" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner carousel-item">
+                        <img class="d-block background-img" src="{{ asset('img/slide_03.jpg') }}" alt="School Management">
+                        <div class="shade"></div>
+                        <div class="banner-content align-items-center d-flex">
+                            <div class="carousel-container">
+                                <div class="row">
+                                    <div class="col-sm img-part">
+                                        <img class="content-img" style=" padding-left: 30px" src="{{ asset('img/new/Recruitment.png')}}"
+                                             alt="image">
+                                    </div>
+                                    <div class="big-tagline col-sm">
+                                        <h2>Teachers Recruitment</h2>
+                                        <p class="lead">At EduPartner Group, we provide customized hiring and executive search
+                                            solutions for schools. We recruit for the best qualified teachers in Education, with
+                                            a strong emphasis on schools that offer international programs including IB (PYP,
+                                            MYP and DP) in addition to IGCSE, A-Level and many other programs.</p>
+                                        <a href="{{ route('teachers-recruitment') }}" class="banner-prompt">Learn More</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="banner carousel-item">
-                <img class="d-block w-100" src="{{ asset('img/slide_01.jpg') }}" alt="School Management">
-                <div class="shade"></div>
-                <div class="banner-content row align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <img style="width: 80%"
-                                     src="{{ asset('img/new/Operating Model.jpg')}}" alt="image">
-                            </div>
-                            <div class="big-tagline col-md-6 col-sm-12">
-                                <h2>School Operating Model</h2>
-                                <p class="lead">We partner with our clients to deliver an ongoing educational management
-                                    structure or operation of the school to ensure sustainability and demonstrate
-                                    schools vision and mission.</p>
-                                <a href="{{ route("school-management") }}" class="banner-prompt">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner carousel-item">
-                <img class="d-block w-100" src="{{ asset('img/slide_04.jpg') }}" alt="School Audit">
-                <div class="shade"></div>
-                <div class="banner-content row align-items-center">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="big-tagline col-md-6 col-sm">
-                                <h2>Comprehensive Teachers Training</h2>
-                                <p class="lead">Partnering with a leading establishment in Cambridge Educational
-                                    Services, we aim to play an effective role in improving the overall performance of
-                                    educational establishments locally and regionally.</p>
-                                <a href="{{ route("teachers-training") }}" class="banner-prompt">Learn More</a>
-                            </div>
-                            <div class="col-md-6 col-sm">
-                                <img style=""
-                                     src="{{ asset('img/new/training.jpg')}}" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner carousel-item">
-                <img class="d-block w-100" src="{{ asset('img/slide_03.jpg') }}" alt="School Management">
-                <div class="shade"></div>
-                <div class="banner-content row align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <img style=" padding-left: 30px" src="{{ asset('img/new/Recruitment.png')}}"
-                                     alt="image">
-                            </div>
-                            <div class="big-tagline col-md-6 col-sm-12">
-                                <h2>Teachers Recruitment</h2>
-                                <p class="lead">At EduPartner Group, we provide customized hiring and executive search
-                                    solutions for schools. We recruit for the best qualified teachers in Education, with
-                                    a strong emphasis on schools that offer international programs including IB (PYP,
-                                    MYP and DP) in addition to IGCSE, A-Level and many other programs.</p>
-                                <a href="{{ route('teachers-recruitment') }}" class="banner-prompt">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+
     <div class="wb">
         <div class="container">
             <div class="home-section">
@@ -135,9 +138,9 @@
                         </p>
                     </div>
                 </div>
-                    <div class="text-center">
-                        <br><a href="{{ url('/about') }}" class="prompt">More about us</a>
-                    </div>
+                <div class="text-center">
+                    <br><a href="{{ url('/about') }}" class="prompt">More about us</a>
+                </div>
             </div>
         </div>
     </div>
@@ -145,7 +148,7 @@
         <div class="container">
             <div class="home-section services-section">
                 <h3 class="text-center">Our Services</h3>
-                    @include('layouts.servicesboxes')
+                @include('layouts.servicesboxes')
                 <br>
                 <h3>Feel free to ask us about any service</h3>
                 <br>

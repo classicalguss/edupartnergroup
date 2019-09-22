@@ -16,11 +16,17 @@
     padding: 20px 0;
 }
 
-.carousel-item img {
+.carousel-item .content-img {
     width: 100%;
     height: auto;
 }
 
+.carousel-item .background-img {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
 .navbar-laravel {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -109,15 +115,51 @@ a:hover {
     height: 100%;
 }
 
-.banner {
-    min-height: 300px;
-    max-height: 550px;
+
+//.banner h2 {
+//    font-size: 10px;
+//}
+//
+//.carousel-container {
+//    padding: 0px 40px;
+//}
+.carousel-container {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-part {
+    display: none;
 }
 
-.banner .container h2 {
+.banner {
+    height: 550px;
+}
+
+@media (min-width: 770px) {
+    .img-part {
+        display: block;
+    }
+}
+
+@media (min-width: 1149px) {
+    .carousel-container {
+        width: 60% !important;
+    }
+    .banner h2 {
+        font-size: 43px;
+    }
+    .banner-prompt {
+        font-size: 20px
+    }
+    p.lead {
+        font-size: 21px;
+    }
+}
+
+.banner h2 {
     color: #ffffff;
     display: block;
-    font-size: 43px;
 }
 
 .banner-content {
@@ -141,12 +183,9 @@ form .btn-primary {
 
 .banner-prompt {
     padding: 10px 20px;
-    font-size: 20px;
 }
 
 p.lead {
-    font-size: 21px;
-    font-weight: 300;
     padding: 0 0 40px;
     margin: 0;
     line-height: inherit;
