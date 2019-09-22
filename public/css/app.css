@@ -10777,7 +10777,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .carousel-container {
     width: 60% !important;
   }
