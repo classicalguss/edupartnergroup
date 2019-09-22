@@ -10787,7 +10787,7 @@ a:hover {
   }
 
   .banner-prompt {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   p.lead {
@@ -10838,6 +10838,12 @@ ul.follow-up li {
   margin: 0;
   line-height: inherit;
   color: #121212;
+  font-family: Arial;
+}
+
+ul li span {
+  font-size: 20px;
+  font-family: Arial;
 }
 
 .home-section {
@@ -10845,8 +10851,8 @@ ul.follow-up li {
 }
 
 .school-impact img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   float: left;
   padding-right: 5px;
 }
@@ -10856,11 +10862,6 @@ ul.follow-up li {
   margin-top: auto;
   margin-bottom: auto;
   text-align: left;
-  font-family: Arial;
-}
-
-ul li span {
-  font-size: 15px;
   font-family: Arial;
 }
 

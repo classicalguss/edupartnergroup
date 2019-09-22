@@ -3,14 +3,12 @@
     <div class="wb">
         <div class="container">
             <div class="home-section">
-                <h3 class="text-center">About us</h3>
-                <div class="row">
-                    <div>
-                        <p class="follow-up">
-                            As one of the leading Education Management firms in the region, EduPartner Group through its strategic partnership with the leading educational establishments worldwide include Cambridge Educational services; a well-established world leader in academic services, publishing, and assessments, City & Guilds of UK; another world leader in academic certification and accreditation, and All Learn aims to play an effective role in improving the overall performance of educational establishments locally and regionally. This is principally done through partnering with the formal educational regulatory bodies (such as Ministries of Education) to elevate their ability to maintain high quality of education based on the highest internationally accepted standards.
-                            EduPartner Group partnership arrangements with these establishments include sharing of resources, programs assurance, auditing, and QA procedures.
-                        </p>
-                    </div>
+                <h3 class="">About us</h3>
+                <div>
+                    <p class="follow-up">
+                        As one of the leading Education Management firms in the region, EduPartner Group through its strategic partnership with the leading educational establishments worldwide include Cambridge Educational services; a well-established world leader in academic services, publishing, and assessments, City & Guilds of UK; another world leader in academic certification and accreditation, and All Learn aims to play an effective role in improving the overall performance of educational establishments locally and regionally. This is principally done through partnering with the formal educational regulatory bodies (such as Ministries of Education) to elevate their ability to maintain high quality of education based on the highest internationally accepted standards.
+                        EduPartner Group partnership arrangements with these establishments include sharing of resources, programs assurance, auditing, and QA procedures.
+                    </p>
                 </div>
 
             </div>

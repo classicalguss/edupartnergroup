@@ -79,7 +79,7 @@
             <div class="col-sm-3">
                 <h3>Contact</h3>
                 <p><i class="fas fa-envelope"> </i> info@edupartnergroup.com</p>
-                <p><i class="fas fa-phone-square"> </i> +962 797531543</p>
+                <p><i class="fas fa-phone-square"> </i> +962 796341119</p>
             </div>
         </div>
         <div class="row">

@@ -17,7 +17,7 @@
                             <div class="carousel-container">
                                 <div class="row">
                                     <div class="big-tagline col-sm">
-                                        <h2>Audit Schools Thoroughly</h2>
+                                        <h2>School Audit</h2>
                                         <p class="lead">We at "EduPartner group" have devised a special model to audit schools
                                             and determine their strengths and weaknesses.
                                             Our audit model consists of 8 different capabilities.</p>
@@ -60,7 +60,7 @@
                             <div class="carousel-container">
                                 <div class="row">
                                     <div class="big-tagline col-sm">
-                                        <h2>Comprehensive Teachers Training</h2>
+                                        <h2>Teachers training</h2>
                                         <p class="lead">Partnering with a leading establishment in Cambridge Educational
                                             Services, we aim to play an effective role in improving the overall performance of
                                             educational establishments locally and regionally.</p>
@@ -147,7 +147,7 @@
     <div class="lb">
         <div class="container">
             <div class="home-section services-section">
-                <h3 class="text-center">Our Services</h3>
+                <h3 class="">Our Services</h3>
                 @include('layouts.servicesboxes')
                 <br>
                 <h3>Feel free to ask us about any service</h3>
@@ -159,7 +159,7 @@
     <div class="wb">
         <div class="container">
             <div class="home-section school-impact">
-                <h3 class="text-center">Our Impact on schools</h3>
+                <h3 class="">Our Impact on schools</h3>
                 <p class="follow-up">Our areas of expertise cover the following educational domains in many Educational
                     programs including IB, GCSE, SAT, and local systems in the Arab World:</p>
                 <div class="row school-impact-row">

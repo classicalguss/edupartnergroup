@@ -3,7 +3,7 @@
     <div class="wb">
         <div class="container">
             <div class="home-section">
-                <h3 class="text-center">Teachers Recruitment</h3>
+                <h3 class="">Teachers Recruitment</h3>
                 <div class="row">
                     <div class="col-md-6">
                         <p class="follow-up">

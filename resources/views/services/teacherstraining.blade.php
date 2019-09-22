@@ -3,7 +3,7 @@
     <div class="wb">
         <div class="container">
             <div class="home-section">
-                <h3 class="text-center">Teachers Training</h3>
+                <h3 class="">Teachers Training</h3>
                 <div class="row">
                     <div class="col-md-9">
                         <p class="follow-up">
@@ -34,12 +34,10 @@
         <div class="container">
             <div class="home-section">
                 <h3>Leadership model</h3>
-                <div class="row">
-                    <p class="follow-up">
-                        Our leadership training model is a competency based one. It covers the most important
-                        educational leadership competencies:
-                    </p>
-                </div>
+                <p class="follow-up">
+                    Our leadership training model is a competency based one. It covers the most important
+                    educational leadership competencies:
+                </p>
                 <div class="row">
                     <img class="mx-auto d-block section-image" src="{{ asset('img/teachers-training-graph.png') }}">
                 </div>
@@ -68,7 +66,8 @@
                 </div>
                 <div class="text-center">
                     <br>
-                    <a class="prompt" href="{{ url('/contact?service=teachers-training') }}" class="prompt">Contact us for teachers training</a>
+                    <a class="prompt" href="{{ url('/contact?service=teachers-training') }}" class="prompt">Contact us
+                        for teachers training</a>
                 </div>
             </div>
         </div>
