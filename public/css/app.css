@@ -10663,9 +10663,6 @@ a.text-dark:focus {
 
 .carousel-item .background-img {
   position: absolute;
-  top: 66%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .navbar-laravel {
