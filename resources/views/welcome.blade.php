@@ -39,8 +39,8 @@
                             <div class="carousel-container">
                                 <div class="row">
                                     <div class="col-sm img-part">
-                                        <img class="content-img" style="width: 80%"
-                                             src="{{ asset('img/new/Operating Model.jpg')}}" alt="image">
+                                        <img class="content-img" style="width: 80%;float: right;"
+                                             src="{{ asset('img/management-carousel.png')}}" alt="image">
                                     </div>
                                     <div class="big-tagline col-sm">
                                         <h2>School Operating Model</h2>

@@ -19,6 +19,7 @@
                         <h3 class="follow-up">
                             “We provide complete oversight regarding the overall operational management structure of your school.”
                         </h3>
+                        <p style="float: right">-EduPartner group CEO</p>
                     </div>
                 </div>
             </div>

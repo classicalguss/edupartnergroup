@@ -22,7 +22,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="section-side-image" src="{{ asset('img/teachers-recruitment.png') }}">
+                        <img style="width: 80%" class="section-side-image" src="{{ asset('img/teachers-recruitment.jpg') }}">
                     </div>
                 </div>
             </div>

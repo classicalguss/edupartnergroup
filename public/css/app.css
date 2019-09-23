@@ -10951,8 +10951,9 @@ footer a {
 
 .section-side-image {
   max-width: 500px;
+  width: 100%;
   height: auto;
-  float: right;
+  float: left;
 }
 
 .section-image {

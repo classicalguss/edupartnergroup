@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-md-3">
                         <a href="https://www.cambridgeed.com/"><img style="width: 70%"
-                                                                    src="{{asset('img/cambridge.png')}}"></a>
+                                                                    src="{{asset('img/cambridge.gif')}}"></a>
                         <a href="https://www.cityandguilds.com"><img style="width: 100%; margin-left:-40px"
                                                                      src="{{asset('img/city-and-guilds.png')}}"></a>
                     </div>

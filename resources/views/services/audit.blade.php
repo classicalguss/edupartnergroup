@@ -4,24 +4,23 @@
         <div class="container">
             <div class="home-section">
                 <h3 class="">School Audit</h3>
-                <div class="container">
-                    <div class="row">
-                        <div>
-                            <img class="section-side-image" src="{{ asset('img/audit-graph-1.png') }}">
-                            <p class="follow-up">
-                                All aspects of Education, like other services and industries in the world, are being
-                                standardized based on best practices. We believe that this global trend should be taken
-                                into
-                                consideration to provide local schools and students with the best chances to be
-                                accredited
-                                and recognized worldwide. Through the audit process we partner with our clients and
-                                provide
-                                them with a frame of reference and a working model and set up locally accepted
-                                educational
-                                standards and use it to evaluate schools performance, to ensure the quality of provided
-                                education meets accepted standards
-                            </p>
-                        </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="follow-up">
+                            All aspects of Education, like other services and industries in the world, are being
+                            standardized based on best practices. We believe that this global trend should be taken
+                            into
+                            consideration to provide local schools and students with the best chances to be
+                            accredited
+                            and recognized worldwide. Through the audit process we partner with our clients and
+                            provide
+                            them with a frame of reference and a working model and set up locally accepted
+                            educational
+                            standards and use it to evaluate schools performance, to ensure the quality of provided
+                            education meets accepted standards
+                        </p>
+                    </div>
+                    <div class="col-md-6"><img class="section-side-image" src="{{ asset('img/audit-graph-1.png') }}">
                     </div>
                 </div>
             </div>
