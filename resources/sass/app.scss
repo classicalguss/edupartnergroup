@@ -29,11 +29,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.navbar-nav .active {
-    background-color: #8EB4E3;
-    color: #ffffff;
-}
-
 h2 {
     font-family: Arial;
     padding-bottom: 10px;
@@ -41,8 +36,9 @@ h2 {
 
 h3 {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 20px;
     color: $navy;
+    font-weight: bold;
 }
 
 body {
@@ -71,13 +67,16 @@ a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.navbar-nav .active, .navbar-nav .prompt {
+.navbar-nav .prompt {
     background-color: $teal;
 }
 
-#navbarSupportedContent .navbar-nav .active a.nav-link,
 #navbarSupportedContent .navbar-nav .prompt a.nav-link {
     color: #fff;
+}
+
+li.active a {
+    text-decoration-line: underline;
 }
 
 #navbarSupportedContent .navbar-nav .nav-item.dropdown {
@@ -190,15 +189,14 @@ p.lead {
 }
 
 p.follow-up, ul.follow-up li {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
     margin: 0;
     line-height: inherit;
     color: #121212;
     font-family: Arial;
 }
 ul li span {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial;
 }
 
@@ -207,8 +205,8 @@ ul li span {
 }
 
 .school-impact img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     float: left;
     padding-right: 5px;
 }

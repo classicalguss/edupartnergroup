@@ -44,7 +44,7 @@
                         </div>
                     </li>
                     <li class="nav-item @if (in_array($routeName, ['success', 'contact'])) active @endif">
-                        <a class="nav-link " href="{{ route('contact') }}"><i class="fas fa-envelope"> </i> CONTACT</a>
+                        <a class="nav-link " href="{{ route('contact') }}">CONTACT US</a>
                     </li>
                     {{--<li class="nav-item">--}}
                         {{--<a class="nav-link" href="#"><i class="fas fa-user"> </i> LOGIN</a>--}}
