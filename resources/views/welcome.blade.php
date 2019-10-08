@@ -20,7 +20,7 @@
                                         <h2>School Audit</h2>
                                         <p class="lead">We at "EduPartner group" have devised a special model to audit schools
                                             and determine their strengths and weaknesses.
-                                            Our audit model consists of 8 different capabilities.</p>
+                                            Our audit model consists of eight different capabilities.</p>
                                         <a href="{{ route('audit') }}" class="banner-prompt">Learn More</a>
                                     </div>
                                     <div class="col-sm img-part">
