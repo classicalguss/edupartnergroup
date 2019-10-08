@@ -10708,6 +10708,10 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+nav img {
+  width: 80%;
+}
+
 .navbar-nav .prompt {
   background-color: #43a7c1;
 }
@@ -10727,7 +10731,7 @@ li.active a {
 
 #navbarSupportedContent .navbar-nav a.nav-link {
   color: #10116d;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Arial;
   padding: 5px 20px;
 }
