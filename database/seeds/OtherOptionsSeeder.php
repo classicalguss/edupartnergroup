@@ -20,12 +20,12 @@ class OtherOptionsSeeder extends Seeder
         ]);
         DB::table('service_options')->truncate();
         DB::table('service_options')->insert([
-            'key' => 'free-audit',
-            'value'=> 'Free Self-Audit'
+            'key' => 'online-audit',
+            'value'=> 'Online Audit'
         ]);
         DB::table('service_options')->insert([
-            'key' => 'educational-consultants-audit',
-            'value'=> 'Educational Consultants Audit'
+            'key' => 'onsite-audit',
+            'value'=> 'On-site Audit'
         ]);
         DB::table('service_options')->insert([
             'key' => 'school-management',

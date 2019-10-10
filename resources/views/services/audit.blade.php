@@ -46,8 +46,8 @@
                             <thead class="audit-chart-head">
                             <tr>
                                 <th class="left">PRODUCT FEATURES</th>
-                                <th>Free Self-Audit</th>
-                                <th>Full Fledged</th>
+                                <th>Online Audit</th>
+                                <th>On-site Audit</th>
                             </tr>
                             </thead>
                             <tbody>
