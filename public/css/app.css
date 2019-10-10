@@ -10723,6 +10723,7 @@ nav img {
 li.active a {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+  font-weight: bold;
 }
 
 #navbarSupportedContent .navbar-nav .nav-item.dropdown {

@@ -25,7 +25,7 @@
                                     </div>
                                     <div class="col-sm img-part">
                                         <img class="content-img" style=""
-                                             src="{{ asset('img/new/Audit.jpg')}}" alt="image">
+                                             src="{{ asset('img/new-audit.jpeg')}}" alt="image">
                                     </div>
                                 </div>
                             </div>

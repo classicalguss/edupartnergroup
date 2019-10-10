@@ -20,7 +20,7 @@
                             education meets accepted standards
                         </p>
                     </div>
-                    <div class="col-md-6"><img class="section-side-image" src="{{ asset('img/audit-graph-1.png') }}">
+                    <div class="col-md-6"><img class="section-side-image" src="{{ asset('img/new-blur-audit.png') }}">
                     </div>
                 </div>
             </div>
