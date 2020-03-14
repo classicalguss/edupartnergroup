@@ -13,7 +13,7 @@
                             members. We
                             help schools attract, develop, motivate and reward the highest caliber teachers based on
                             competencies, experience and skills.
-                            At EduPartner Group, we provide customized hiring and executive search solutions for
+                            At EduVation Group, we provide customized hiring and executive search solutions for
                             schools. We
                             differentiate ourselves from other teacher recruitment agencies through establishing
                             Teacher-Employer Partnerships and providing services based on mutual understanding for the

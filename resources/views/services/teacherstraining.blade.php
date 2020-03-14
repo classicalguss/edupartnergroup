@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <p class="follow-up">
-                            As one of the leading Education Management firms in the region, EduPartner Group through its
+                            As one of the leading Education Management firms in the region, EduVation Group through its
                             strategic partnership with the leading educational establishments worldwide include
                             <a href="https://www.cityandguilds.com">City & Guilds</a> of
                             UK - a world leader in academic
@@ -18,7 +18,7 @@
                             performance of educational establishments locally and regionally.
                             <br> This is principally done
                             through designing a customized model for every school based on a thorough needs analysis
-                            conducted by schools under the supervision of EduPartner Group.
+                            conducted by schools under the supervision of EduVation Group.
                         </p>
                     </div>
                     <div class="col-md-3">
