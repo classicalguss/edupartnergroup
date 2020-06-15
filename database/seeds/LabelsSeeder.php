@@ -15,7 +15,7 @@ class LabelsSeeder extends Seeder
         DB::table('labels')->insert([
             'key' => 'school_audit_slider',
             'description' => 'Slider Text for the Audit service',
-            'value'=> 'We at "EduVation group" have devised a special model to audit schools and determine their strengths and weaknesses. Our audit model consists of 8 different capabilities.'
+            'value'=> 'We at "Eduvation group" have devised a special model to audit schools and determine their strengths and weaknesses. Our audit model consists of 8 different capabilities.'
         ]);
         DB::table('labels')->insert([
             'key' => 'school_management_slider',
@@ -30,7 +30,7 @@ class LabelsSeeder extends Seeder
         DB::table('labels')->insert([
             'key' => 'teachers_recruitment_slider',
             'description' => 'Slider Text for Teachers recruitment service',
-            'value'=> 'At EduVation Group, we provide customized hiring and executive search solutions for schools. We recruit for the best qualified teachers in Education, with a strong emphasis on schools that offer international programs including IB (PYP, MYP and DP) in addition to IGCSE, A-Level and many other programs.'
+            'value'=> 'At Eduvation Group, we provide customized hiring and executive search solutions for schools. We recruit for the best qualified teachers in Education, with a strong emphasis on schools that offer international programs including IB (PYP, MYP and DP) in addition to IGCSE, A-Level and many other programs.'
         ]);
         DB::table('labels')->insert([
             'key' => 'home_about_us_1',
@@ -73,7 +73,7 @@ class LabelsSeeder extends Seeder
         DB::table('labels')->insert([
             'key' => 'about_main',
             'description' => 'The main text in about us page',
-            'value'=> 'As one of the leading Education Management firms in the region, EduVation Group through its strategic partnership with the leading educational establishments worldwide include Cambridge Educational services; a well-established world leader in academic services, publishing, and assessments, City & Guilds of UK; another world leader in academic certification and accreditation, and All Learn aims to play an effective role in improving the overall performance of educational establishments locally and regionally. This is principally done through partnering with the formal educational regulatory bodies (such as Ministries of Education) to elevate their ability to maintain high quality of education based on the highest internationally accepted standards. EduVation Group partnership arrangements with these establishments include sharing of resources, programs assurance, auditing, and QA procedures.'
+            'value'=> 'As one of the leading Education Management firms in the region, Eduvation Group through its strategic partnership with the leading educational establishments worldwide include Cambridge Educational services; a well-established world leader in academic services, publishing, and assessments, City & Guilds of UK; another world leader in academic certification and accreditation, and All Learn aims to play an effective role in improving the overall performance of educational establishments locally and regionally. This is principally done through partnering with the formal educational regulatory bodies (such as Ministries of Education) to elevate their ability to maintain high quality of education based on the highest internationally accepted standards. Eduvation Group partnership arrangements with these establishments include sharing of resources, programs assurance, auditing, and QA procedures.'
         ]);
         DB::table('labels')->insert([
             'key' => 'our_area_of_expertise',

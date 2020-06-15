@@ -6,7 +6,7 @@
             <div class="home-section">
                 <h3 class="text-center">Success!</h3>
                 <div class="col-md-8 m-auto">
-                    <h4 class="">Thank you for contacting us. A specialist from Edupartner will get back to
+                    <h4 class="">Thank you for contacting us. A specialist from Eduvation group will get back to
                         you soon</h4>
                 </div>
             </div>

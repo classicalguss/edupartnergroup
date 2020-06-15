@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{@asset('css/app.css')}}">
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
     {{--<link rel="stylesheet" href="{{@asset('css/temp.css')}}">--}}
-    <title>Edupartnergroup</title>
+    <title>Eduvation group</title>
 </head>
 <body>
 <div class="site-header">
@@ -62,7 +62,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('img/edupartnerlogo5.png') }}">
                 </a>
-                <p class="white">EduVation is a regional educational management firm specialized in designing new operating models for educational institutes. The purpose of such a customized operating model is to help schools convert strategies to tangible results.
+                <p class="white">Eduvation is a regional educational management firm specialized in designing new operating models for educational institutes. The purpose of such a customized operating model is to help schools convert strategies to tangible results.
                 </p>
             </div>
             <div class="col-sm-3">
@@ -78,13 +78,14 @@
             </div>
             <div class="col-sm-3">
                 <h3>Contact</h3>
-                <p><i class="fas fa-envelope"> </i> info@edupartnergroup.com</p>
-                <p><i class="fas fa-phone-square"> </i> +962 796341119</p>
+                <p><i class="fas fa-envelope"> </i> info@eduvationgroup.com</p>
+                <p><i class="fas fa-address-card"> </i> Office 162, Zina Commercial Center, 44 Queen Nour Street, Amman - Jordan</p>
+                <p><i class="fas fa-phone-square"> </i> +962 6 5694177 ext. 162</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <p>Copyright © 2019 Edupartner Group. All rights reserved.</p>
+                <p>Copyright © 2019 Eduvation Group. All rights reserved.</p>
             </div>
         </div>
     </div>

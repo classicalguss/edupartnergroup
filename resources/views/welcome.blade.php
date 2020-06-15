@@ -18,7 +18,7 @@
                                 <div class="row">
                                     <div class="big-tagline col-sm">
                                         <h2>School Audit</h2>
-                                        <p class="lead">We at "EduVation group" have devised a special model to audit schools
+                                        <p class="lead">We at "Eduvation group" have devised a special model to audit schools
                                             and determine their strengths and weaknesses.
                                             Our audit model consists of eight different capabilities.</p>
                                         <a href="{{ route('audit') }}" class="banner-prompt">Learn More</a>
@@ -86,7 +86,7 @@
                                     </div>
                                     <div class="big-tagline col-sm">
                                         <h2>Teachers Recruitment</h2>
-                                        <p class="lead">At EduVation Group, we provide customized hiring and executive search
+                                        <p class="lead">At Eduvation Group, we provide customized hiring and executive search
                                             solutions for schools. We recruit for the best qualified teachers in Education, with
                                             a strong emphasis on schools that offer international programs including IB (PYP,
                                             MYP and DP) in addition to IGCSE, A-Level and many other programs.</p>

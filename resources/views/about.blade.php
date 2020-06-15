@@ -6,7 +6,7 @@
                 <h3 class="">About us</h3>
                 <div>
                     <p class="follow-up">
-                        As one of the leading Education Management firms in the region, EduVation Group through its
+                        As one of the leading Education Management firms in the region, Eduvation Group through its
                         strategic partnership with the leading educational establishments worldwide include
                         <a href="https://www.cityandguilds.com">City & Guilds</a> of
                         UK - a world leader in academic
@@ -19,7 +19,7 @@
                         This is principally done
                         through partnering with the formal educational regulatory bodies (such as Ministries of
                         Education) to elevate their ability to maintain high quality of education based on the highest
-                        internationally accepted standards. EduVation Group partnership arrangements with these
+                        internationally accepted standards. Eduvation Group partnership arrangements with these
                         establishments include sharing of resources, programs assurance, auditing, and QA procedures.
                     </p>
                 </div>

@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p class="follow-up">
-                            EduVation Group and its team of experienced educators can manage schools throughout the
+                            Eduvation Group and its team of experienced educators can manage schools throughout the
                             world. As a result, owners and boards can rely on the expertise we have accumulated from
                             designing and implementing operating models for schools offer different educational national
                             and international programs. We partner with our clients to deliver an ongoing educational
@@ -19,7 +19,7 @@
                         <h3 class="follow-up">
                             “We provide complete oversight regarding the overall operational management structure of your school.”
                         </h3>
-                        <p style="float: right">-EduVation group CEO</p>
+                        <p style="float: right">-Eduvation group CEO</p>
                     </div>
                 </div>
             </div>
