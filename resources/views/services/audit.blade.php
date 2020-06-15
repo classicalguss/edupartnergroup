@@ -12,7 +12,7 @@
                             into
                             consideration to provide local schools and students with the best chances to be
                             accredited
-                            and recognized worldwide. Through the audit process we k with our clients and
+                            and recognized worldwide. Through the audit process we partner with our clients and
                             provide
                             them with a frame of reference and a working model and set up locally accepted
                             educational
