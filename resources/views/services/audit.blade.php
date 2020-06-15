@@ -12,7 +12,7 @@
                             into
                             consideration to provide local schools and students with the best chances to be
                             accredited
-                            and recognized worldwide. Through the audit process we partner with our clients and
+                            and recognized worldwide. Through the audit process we k with our clients and
                             provide
                             them with a frame of reference and a working model and set up locally accepted
                             educational
@@ -27,16 +27,6 @@
         </div>
     </div>
     <div class="lb">
-        <div class="container">
-            <div class="home-section">
-                <h3 class="">How does it work?</h3>
-                <div class="row">
-                    <img class="mx-auto d-block section-image" src="{{ asset('img/audit-graph5.png') }}">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wb">
         <div class="container">
             <div class="home-section">
                 <h3 class="">Type of audits</h3>
