@@ -10691,7 +10691,7 @@ body {
   top: 0;
   z-index: 50;
   width: 100%;
-  background-color: #f2f3f5;
+  background-color: #ffffff;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.7);
 }
 
@@ -10709,7 +10709,8 @@ a:hover {
 }
 
 nav img {
-  width: 80%;
+  width: 300px;
+  margin-left: 20px;
 }
 
 .navbar-nav .prompt {
@@ -10925,10 +10926,6 @@ ul li span {
   background-color: #57BAA9;
 }
 
-footer p {
-  color: black;
-}
-
 .service-item:hover h4,
 .service-item:hover p {
   color: white;
@@ -10943,13 +10940,19 @@ footer .navbar-brand {
   margin-left: -5px;
 }
 
+footer .navbar-brand img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
 footer h3 {
   color: #22275C;
 }
 
 footer li,
-footer a {
-  color: black;
+footer a,
+footer p {
+  color: white;
 }
 
 .section-side-image {
